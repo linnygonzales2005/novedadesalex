@@ -1,0 +1,94 @@
+@charset"utf-8";
+body header{
+	background-color:#2CA6E9;
+	text-align:center;
+	color:#FD8D00;
+	text-shadow:3px 2px #060606;
+	font-family:constancia,"lucida brigth","dejaVu Serif",Georgia,"serif";
+	font-size:30;
+}
+.menu{
+	color:#A69D9D;
+	margin-bottom:5px;
+	padding-bottom:3px;
+	padding-top:3px;
+	padding-rigth:3px;
+	background-color:#0AD5FF;
+	text-align:center;
+}
+.menu ul{
+	background-color:#F4F4F4;
+	margin:0;
+	padding:0;
+	border:1px solid#7C7C7C;
+	overflow:hidden;
+	list-style-type:none;
+}
+.menu ul li{
+	float:left;
+	width:100px;
+}
+.menu ul li:hover{
+	background-color:#EDCAA2;
+}
+ul li a {
+	border-left:1px solid#FFFFFF;
+	border-ringts:1px solid #7C7C7C;
+	text-shadow:0px 0px #333333;
+	padding:.3em;
+	display:block;
+	text-decoration:none;
+}
+ul li a:hover{
+	color:#F7080C;
+}
+#contactform{
+	background-color:#87b5c4;
+	width:500px;
+	padding:20px;
+	margin:60px auto;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 20px;
+}
+	#contactform input,
+	#contatform select,
+	#contactform textarea,
+	#contactform label {
+		font-size:15px;
+		margin-bottom: 1px;
+		font-family: Arial,San-serif;
+		aling-content: center;
+}
+#contactform input,
+#contatfrom select,
+#contactfrom textarea{
+	width: 320px;
+	background-color:#E4FCBB;
+	border: 0;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	padding: 5px;
+	align-items: flex-end;
+}
+#contactfrom input:focus,
+#contactfrom select:focus,
+#contactfrom textarea:focus{
+	background-color: #C1DAF3;
+}
+#contctfrom textarea{
+	heigth: 100px;
+	width: 500px}
+#contatfrom #submit:hover{
+	background-color:#BFD7C1;
+	color: #6EA070;
+}
+input:required,
+textarea:required{
+	box-shadow:none;
+	-moz-box-shadow: none;
+	-webkit-box-shadow:none;
+	-o-box-shadow: none}
+#failure,#success{
+	color:#6EA070;
+	display:none}
